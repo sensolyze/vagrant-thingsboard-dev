@@ -1,0 +1,23 @@
+{
+  "hostvars":
+  {
+    "vagrant_image":         "vagrant-epr-dev/ubuntu-16.04-nodejs",
+    "vagrant_ram":           "512",
+    "vagrant_cpu":           "2",
+    "vb_guest_os":           "ubuntu",
+    "vb_group":              "sensolyze-dev",
+    "vb_network": [
+      {
+        "ip":      "172.16.1.25",
+        "netmask": "255.255.255.0",
+        "netname": "sensolyze-dev-net1",
+        "nictype": "82540EM"
+      }
+    ],
+    "vb_shell_provisioner": [
+      {
+        "script": "sensolyze-dev-nodejs.sh"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Atom
+GenericName=Atom
+GenericName[de]=Atom
+Comment=Atom Editor
+Exec=/opt/atom/atom
+Icon=/opt/atom/atom.png
+Terminal=false
+Type=Application
+StartupNotify=false
+Categories=Editor;
+NoDisplay=false

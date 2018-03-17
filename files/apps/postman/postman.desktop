@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Postman
+GenericName=Postman
+GenericName[de]=Postman
+Comment=Postman
+Encoding=UTF-8
+Exec=postman
+Icon=/opt/Postman/resources/app/assets/icon.png
+Terminal=false
+Type=Application
+Categories=Development;

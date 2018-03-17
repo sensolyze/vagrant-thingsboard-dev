@@ -1,0 +1,7 @@
+# Install refenzierte Rollen mit:
+#
+# ansible-galaxy install -r requirements.yml
+#
+
+# Install a role from the Ansible Galaxy
+# - src: dfarrell07.opendaylight

@@ -1,0 +1,33 @@
+{
+  "hostvars":
+  {
+    "vagrant_image":         "vagrant-epr-dev/ubuntu-16.04-mate",
+    "vagrant_ram":           "4096",
+    "vagrant_cpu":           "2",
+    "vb_guest_os":           "ubuntu",
+    "vb_group":              "sensolyze-dev",
+    "vb_dnshostresolve":     true,
+    "vb_network": [
+      {
+        "ip":      "172.16.1.32",
+        "netmask": "255.255.255.0",
+        "netname": "sensolyze-dev-net1",
+        "nictype": "82540EM"
+      }
+    ],
+    "vb_shell_provisioner": [
+      {
+        "script": "sensolyze-dev-client.sh"
+      }
+    ],
+    "vb_port_forwarding": [
+      {
+        "host":         "8889",
+        "host_ip":      "127.0.0.1",
+        "guest":        "3389",
+        "protocol":     "tcp",
+        "id":           "rdp"
+      }
+    ]
+  }
+}

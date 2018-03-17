@@ -1,0 +1,13 @@
+# Install refenzierte Rollen mit:
+#
+# ansible-galaxy install -r requirements.yml
+#
+
+# from GitLab or other git-based scm
+# - src: http://vcs.corp.conextrade.com/conextrade-galaxy/ubuntu-test-role.git
+#   scm: git
+#   version: "v0.9.0"  # quoted, so YAML doesn't parse this as a floating-point value
+
+# - src: http://vcs.corp.conextrade.com/conextrade-galaxy/win2012-test-role.git
+#   scm: git
+#   version: "v0.9.0"  # quoted, so YAML doesn't parse this as a floating-point value

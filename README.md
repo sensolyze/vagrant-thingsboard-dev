@@ -1,4 +1,7 @@
-# vagrant-thingsboard-dev
-Vagrant build environment for thingsboard
+## Sensolyse Development Environment
 
-test
+Vagrant Sensolyse Umgebung für Development
+
+### thingsboard
+
+Default Login: sysadmin@thingsboard.org / sysadmin

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Ubuntu provisioning file
+# Centos provisioning file
 sudo yum -y update
 
 # install oracle jdk

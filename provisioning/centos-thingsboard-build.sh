@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# install curl git
-sudo apt update
-sudo apt-get install -y curl git unzip jq maven
+# Centos provisioning file
+sudo yum -y update
+sudo yum -y install curl git unzip maven
 
-# install oracle-jdk
-sudo /vagrant/files/apps/oracle-jdk/install-jdk8.sh
+# install oracle jdk
+sudo /vagrant/files/apps-centos/oracle-jdk/install-jdk8.sh
 
 # init keys
 /vagrant/files/keys/init-key.sh
@@ -14,7 +14,7 @@ sudo /vagrant/files/apps/oracle-jdk/install-jdk8.sh
 /vagrant/files/bashshell/add-known-host.sh github.com
 
 # clone thingsboard
-sudo /vagrant/files/apps/thingsboard/clone-thingsboard.sh
+sudo /vagrant/files/apps-centos/thingsboard/clone-thingsboard.sh
 
 # set directory color
 echo "LS_COLORS=$LS_COLORS:'di=0;93:' ; export LS_COLORS" >> /home/vagrant/.bashrc

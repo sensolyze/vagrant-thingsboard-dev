@@ -4,6 +4,7 @@ sensolyze-dev-db
 ubuntu-thingsboard
 ubuntu-thingsboard-build
 centos-thingsboard
+centos-thingsboard-build
 
 [vagrant-kitchen]
 sensolyze-dev-client
@@ -12,6 +13,7 @@ sensolyze-dev-db
 ubuntu-thingsboard
 ubuntu-thingsboard-build
 centos-thingsboard
+centos-thingsboard-build
 
 [linux]
 sensolyze-dev-client
@@ -20,5 +22,6 @@ sensolyze-dev-db
 ubuntu-thingsboard
 ubuntu-thingsboard-build
 centos-thingsboard
+centos-thingsboard-build
 
 [windows]

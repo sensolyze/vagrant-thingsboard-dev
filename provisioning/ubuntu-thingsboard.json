@@ -1,0 +1,33 @@
+{
+  "hostvars":
+  {
+    "vagrant_image":         "vagrant-epr-dev/ubuntu-16.04-soe",
+    "vagrant_ram":           "4096",
+    "vagrant_cpu":           "2",
+    "vb_hostname":           "thingsboard",
+    "vb_guest_os":           "ubuntu",
+    "vb_group":              "sensolyze-dev",
+    "vb_network": [
+      {
+        "ip":      "172.16.1.26",
+        "netmask": "255.255.255.0",
+        "netname": "sensolyze-dev-net1",
+        "nictype": "82540EM"
+      }
+    ],
+    "vb_shell_provisioner": [
+      {
+        "script": "ubuntu-thingsboard.sh"
+      }
+    ],
+    "vb_port_forwarding": [
+      {
+        "host":         "8080",
+        "host_ip":      "127.0.0.1",
+        "guest":        "8080",
+        "protocol":     "tcp",
+        "id":           "thingsboard"
+      }
+    ]
+  }
+}

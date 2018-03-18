@@ -1,18 +1,24 @@
 sensolyze-dev-client
 sensolyze-dev-nodejs
 sensolyze-dev-db
-sensolyze-dev-thingsboard
+ubuntu-thingsboard
+ubuntu-thingsboard-build
+centos-thingsboard
 
 [vagrant-kitchen]
 sensolyze-dev-client
 sensolyze-dev-nodejs
 sensolyze-dev-db
-sensolyze-dev-thingsboard
+ubuntu-thingsboard
+ubuntu-thingsboard-build
+centos-thingsboard
 
 [linux]
 sensolyze-dev-client
 sensolyze-dev-nodejs
 sensolyze-dev-db
-sensolyze-dev-thingsboard
+ubuntu-thingsboard
+ubuntu-thingsboard-build
+centos-thingsboard
 
 [windows]

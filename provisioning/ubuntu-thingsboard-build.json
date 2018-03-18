@@ -9,7 +9,7 @@
     "vb_group":              "sensolyze-dev",
     "vb_network": [
       {
-        "ip":      "172.16.1.26",
+        "ip":      "172.16.1.27",
         "netmask": "255.255.255.0",
         "netname": "sensolyze-dev-net1",
         "nictype": "82540EM"
@@ -17,16 +17,7 @@
     ],
     "vb_shell_provisioner": [
       {
-        "script": "sensolyze-dev-thingsboard.sh"
-      }
-    ],
-    "vb_port_forwarding": [
-      {
-        "host":         "8080",
-        "host_ip":      "127.0.0.1",
-        "guest":        "8080",
-        "protocol":     "tcp",
-        "id":           "thingsboard"
+        "script": "ubuntu-thingsboard-build.sh"
       }
     ]
   }

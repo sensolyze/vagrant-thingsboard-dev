@@ -1,0 +1,33 @@
+{
+  "hostvars":
+  {
+    "vagrant_image":         "vagrant-epr-dev/centos-7.3-soe",
+    "vagrant_ram":           "4096",
+    "vagrant_cpu":           "2",
+    "vb_hostname":           "thingsboard",
+    "vb_guest_os":           "centos",
+    "vb_group":              "sensolyze-dev",
+    "vb_network": [
+      {
+        "ip":      "172.16.1.28",
+        "netmask": "255.255.255.0",
+        "netname": "sensolyze-dev-net1",
+        "nictype": "82540EM"
+      }
+    ],
+    "vb_shell_provisioner": [
+      {
+        "script": "centos-thingsboard.sh"
+      }
+    ],
+    "vb_port_forwarding": [
+      {
+        "host":         "8080",
+        "host_ip":      "127.0.0.1",
+        "guest":        "8080",
+        "protocol":     "tcp",
+        "id":           "thingsboard"
+      }
+    ]
+  }
+}
